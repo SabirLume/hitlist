@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.submit-button {
+  background-color: green;
+}
+
+.delete-button {
+  background-color: red;
+}
+
+.flex-form-container {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.error-modal {
+  border: solid red;
+  border-radius: 25px;
+  background: red;
+  padding: 20px;
+}
+
+.success-modal {
+  border: solid green;
+  border-radius: 25px;
+  background: green;
+  padding: 20px;
+}
