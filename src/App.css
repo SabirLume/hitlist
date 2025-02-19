@@ -34,17 +34,18 @@ input {
 ul {
   list-style-type: none;
 }
-
 .error-modal {
   border: solid red;
   border-radius: 25px;
   background: red;
-  padding: 20px;
+  padding: 15px;
+  margin-left: 40%;
 }
 
 .success-modal {
   border: solid green;
   border-radius: 25px;
   background: green;
-  padding: 20px;
+  padding: 15px;
+  margin-left: 40%;
 }

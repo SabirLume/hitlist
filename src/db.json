@@ -1,25 +1,18 @@
 {
   "roles": [
     {
-      "id": "1f1c",
-      "name": "Wayfair",
-      "role": "Software Eng",
-      "link": "www.wayfiar.com",
+      "id": 234,
+      "name": "amazon",
+      "role": "eng",
+      "link": "wwww.ama",
+      "location": "boston"
+    },
+    {
+      "id": "e287",
+      "name": "wayfair",
+      "role": "SE2",
+      "link": "www.wayfair.com",
       "location": "Boston"
-    },
-    {
-      "id": "9b3f",
-      "name": "testing ",
-      "role": "software eng",
-      "link": "www.blahblah",
-      "location": "boston"
-    },
-    {
-      "id": "9ac9",
-      "name": "testing ",
-      "role": "software eng",
-      "link": "www.blahblah",
-      "location": "boston"
     }
   ]
 }

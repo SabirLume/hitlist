@@ -61,8 +61,9 @@ function App() {
     roleService
       .addRole(roleData)
       .then((data) => {
-        roleData = { ...data };
-        console.log("data", roleData);
+        setData((n) => {
+          return n.concat({ ...data });
+        });
       })
       .catch((e) => {
         console.error("error", e.message);
@@ -70,8 +71,6 @@ function App() {
         setNotificationModal("error adding role to DB", true);
         return;
       });
-
-    setData((n) => n.concat(roleData));
   };
 
   const onSubmitFilter = () => {
